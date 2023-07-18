@@ -4,5 +4,5 @@ mydict = {
     'Country' : ['India','England']
 }
 df = pd.DataFrame(mydict)
-df = pd.to_csv("myFile.csv")
+df.to_csv("myFile.csv")
 print(df)
